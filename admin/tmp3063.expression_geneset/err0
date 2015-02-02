@@ -1,0 +1,211 @@
+command : java -classpath /share1/proj/eem/java/bin:/share1/proj/eem/java/lib/PeasyCam.jar:/share1/proj/eem/java/lib/RXTXcomm.jar:/share1/proj/eem/java/lib/arpack_combo-0.1.jar:/share1/proj/eem/java/lib/commons-cli-1.1.jar:/share1/proj/eem/java/lib/commons-math-1.2.jar:/share1/proj/eem/java/lib/controlP5.jar:/share1/proj/eem/java/lib/core.jar:/share1/proj/eem/java/lib/dxf.jar:/share1/proj/eem/java/lib/gluegen-rt-natives-linux-amd64.jar:/share1/proj/eem/java/lib/gluegen-rt-natives-linux-i586.jar:/share1/proj/eem/java/lib/gluegen-rt-natives-macosx-ppc.jar:/share1/proj/eem/java/lib/gluegen-rt-natives-macosx-universal.jar:/share1/proj/eem/java/lib/gluegen-rt-natives-windows-amd64.jar:/share1/proj/eem/java/lib/gluegen-rt-natives-windows-i586.jar:/share1/proj/eem/java/lib/gluegen-rt.jar:/share1/proj/eem/java/lib/itext-1.1.jar:/share1/proj/eem/java/lib/itext.jar:/share1/proj/eem/java/lib/javascript.jar:/share1/proj/eem/java/lib/jgrapht-jdk1.6.jar:/share1/proj/eem/java/lib/jl1.0.jar:/share1/proj/eem/java/lib/jogl-natives-linux-amd64.jar:/share1/proj/eem/java/lib/jogl-natives-linux-i586.jar:/share1/proj/eem/java/lib/jogl-natives-macosx-ppc.jar:/share1/proj/eem/java/lib/jogl-natives-macosx-universal.jar:/share1/proj/eem/java/lib/jogl-natives-windows-amd64.jar:/share1/proj/eem/java/lib/jogl-natives-windows-i586.jar:/share1/proj/eem/java/lib/jogl.jar:/share1/proj/eem/java/lib/jsminim.jar:/share1/proj/eem/java/lib/junit-3.8.2.jar:/share1/proj/eem/java/lib/minim-spi.jar:/share1/proj/eem/java/lib/minim.jar:/share1/proj/eem/java/lib/mp3spi1.9.4.jar:/share1/proj/eem/java/lib/mpi.jar:/share1/proj/eem/java/lib/mtj-0.9.12.jar:/share1/proj/eem/java/lib/mysql-connector-java-5.1.7-bin.jar:/share1/proj/eem/java/lib/net.jar:/share1/proj/eem/java/lib/netlib-java-0.9.1.jar:/share1/proj/eem/java/lib/opengl.jar:/share1/proj/eem/java/lib/pdf.jar:/share1/proj/eem/java/lib/serial.jar:/share1/proj/eem/java/lib/tritonus_aos.jar:/share1/proj/eem/java/lib/tritonus_share.jar:/share1/proj/eem/java/lib/video.jar:/share1/proj/eem/java/lib/weka.jar -Xms1024m -Xmx1024m eem.ParameterOptimizingCoherenceBasedEEMsearch      -p 2      -o tmp3063.expression_geneset/out0 /share1/proj/eem/dataTmp/xnGnP/expression.tab tmp3063.expression_geneset/gs0 
+start time: Fri Aug 24 16:06:35 2012
+Calculating correlations...
+converting 0.05 in relative distance to absolute distance...
+2.0 in absolute distance is equal to 1.0 in relative distance.
+0.0 in absolute distance is equal to 0.001 in relative distance.
+1.0 in absolute distance is equal to 0.605 in relative distance.
+0.5 in absolute distance is equal to 0.118 in relative distance.
+0.25 in absolute distance is equal to 0.04 in relative distance.
+0.375 in absolute distance is equal to 0.098 in relative distance.
+0.3125 in absolute distance is equal to 0.071 in relative distance.
+0.28125 in absolute distance is equal to 0.056 in relative distance.
+0.265625 in absolute distance is equal to 0.043 in relative distance.
+0.2734375 in absolute distance is equal to 0.054 in relative distance.
+0.26953125 in absolute distance is equal to 0.051 in relative distance.
+converting 0.1 in relative distance to absolute distance...
+2.0 in absolute distance is equal to 1.0 in relative distance.
+0.0 in absolute distance is equal to 0.001 in relative distance.
+1.0 in absolute distance is equal to 0.605 in relative distance.
+0.5 in absolute distance is equal to 0.118 in relative distance.
+0.25 in absolute distance is equal to 0.04 in relative distance.
+0.375 in absolute distance is equal to 0.098 in relative distance.
+converting 0.15 in relative distance to absolute distance...
+2.0 in absolute distance is equal to 1.0 in relative distance.
+0.0 in absolute distance is equal to 0.001 in relative distance.
+1.0 in absolute distance is equal to 0.605 in relative distance.
+0.5 in absolute distance is equal to 0.118 in relative distance.
+0.75 in absolute distance is equal to 0.363 in relative distance.
+0.625 in absolute distance is equal to 0.151 in relative distance.
+Findng module gene...
+NUCLEAR_PART(1/23): succeed! 3/15
+CELL_SURFACE(2/23): succeed! 2/11
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(3/23): succeed! 8/30
+ORGANELLE_PART(4/23): succeed! 13/57
+EXTRACELLULAR_REGION(5/23): succeed! 10/93
+CYTOSOL(6/23): succeed! 2/14
+MEMBRANE_PART(7/23): succeed! 15/132
+CYTOSKELETAL_PART(8/23): succeed! 11/26
+CYTOPLASMIC_PART(9/23): succeed! 6/79
+MICROTUBULE_CYTOSKELETON(10/23): succeed! 11/18
+INTRINSIC_TO_PLASMA_MEMBRANE(11/23): succeed! 11/93
+CELL_FRACTION(12/23): succeed! 1/37
+ORGANELLE_MEMBRANE(13/23): succeed! 2/13
+SPINDLE(14/23): succeed! 10/10
+INTRINSIC_TO_MEMBRANE(15/23): succeed! 11/115
+CYTOPLASM(16/23): succeed! 8/133
+MEMBRANE(17/23): succeed! 20/149
+EXTRACELLULAR_MATRIX_PART(18/23): succeed! 6/13
+ORGANELLE_LUMEN(19/23): succeed! 3/10
+ENDOPLASMIC_RETICULUM(20/23): succeed! 1/19
+CYTOSKELETON(21/23): succeed! 11/34
+NUCLEUS(22/23): succeed! 10/67
+NON_MEMBRANE_BOUND_ORGANELLE(23/23): succeed! 12/40
+Calculating approximate P values to filter out non-significant genesets...
+NUCLEAR_PART(1/23): succeed! 1.4560400420723614
+CELL_SURFACE(2/23): succeed! 0.9956083839546525
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(3/23): succeed! 4.253077372507009
+ORGANELLE_PART(4/23): succeed! 5.921034652777307
+EXTRACELLULAR_REGION(5/23): succeed! 1.8810527879764398
+CYTOSOL(6/23): succeed! 0.8178455373279526
+MEMBRANE_PART(7/23): succeed! 2.958183870181771
+CYTOSKELETAL_PART(8/23): succeed! 8.155555000346348
+CYTOPLASMIC_PART(9/23): succeed! 0.7086466878044979
+MICROTUBULE_CYTOSKELETON(10/23): succeed! 10.411939781091299
+INTRINSIC_TO_PLASMA_MEMBRANE(11/23): succeed! 2.3626722394950836
+CELL_FRACTION(12/23): succeed! 0.06782919004799312
+ORGANELLE_MEMBRANE(13/23): succeed! 0.871208010190054
+SPINDLE(14/23): succeed! 13.408964762213678
+INTRINSIC_TO_MEMBRANE(15/23): succeed! 1.666658263336162
+CYTOPLASM(16/23): succeed! 0.4644530371841626
+MEMBRANE(17/23): succeed! 5.120973295945117
+EXTRACELLULAR_MATRIX_PART(18/23): succeed! 4.818086074382921
+ORGANELLE_LUMEN(19/23): succeed! 1.95797094187205
+ENDOPLASMIC_RETICULUM(20/23): succeed! 0.2033767181809303
+CYTOSKELETON(21/23): succeed! 6.716509845872024
+NUCLEUS(22/23): succeed! 2.955900818725147
+NON_MEMBRANE_BOUND_ORGANELLE(23/23): succeed! 6.903397084994539
+Calculating accurate P values...
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(1/12): succeed! 5.291248940149998
+ORGANELLE_PART(2/12): succeed! 6.666581429396875
+MEMBRANE_PART(3/12): succeed! 3.90759080335484
+CYTOSKELETAL_PART(4/12): succeed! 9.193603331520773
+MICROTUBULE_CYTOSKELETON(5/12): succeed! 11.08240045516503
+INTRINSIC_TO_PLASMA_MEMBRANE(6/12): succeed! 3.2766316174053016
+SPINDLE(7/12): succeed! 14.223289940033226
+MEMBRANE(8/12): succeed! 5.8126143200894855
+EXTRACELLULAR_MATRIX_PART(9/12): succeed! 5.935239329300637
+CYTOSKELETON(10/12): succeed! 7.593417625157599
+NUCLEUS(11/12): succeed! 3.809055973376114
+NON_MEMBRANE_BOUND_ORGANELLE(12/12): succeed! 7.8109975186007246
+
+Findng module gene...
+NUCLEAR_PART(1/23): succeed! 3/15
+CELL_SURFACE(2/23): succeed! 2/11
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(3/23): succeed! 11/30
+ORGANELLE_PART(4/23): succeed! 15/57
+EXTRACELLULAR_REGION(5/23): succeed! 15/93
+CYTOSOL(6/23): succeed! 2/14
+MEMBRANE_PART(7/23): succeed! 20/132
+CYTOSKELETAL_PART(8/23): succeed! 12/26
+CYTOPLASMIC_PART(9/23): succeed! 6/79
+MICROTUBULE_CYTOSKELETON(10/23): succeed! 12/18
+INTRINSIC_TO_PLASMA_MEMBRANE(11/23): succeed! 15/93
+CELL_FRACTION(12/23): succeed! 2/37
+ORGANELLE_MEMBRANE(13/23): succeed! 2/13
+SPINDLE(14/23): succeed! 10/10
+INTRINSIC_TO_MEMBRANE(15/23): succeed! 16/115
+CYTOPLASM(16/23): succeed! 9/133
+MEMBRANE(17/23): succeed! 25/149
+EXTRACELLULAR_MATRIX_PART(18/23): succeed! 6/13
+ORGANELLE_LUMEN(19/23): succeed! 3/10
+ENDOPLASMIC_RETICULUM(20/23): succeed! 1/19
+CYTOSKELETON(21/23): succeed! 12/34
+NUCLEUS(22/23): succeed! 13/67
+NON_MEMBRANE_BOUND_ORGANELLE(23/23): succeed! 14/40
+Calculating approximate P values to filter out non-significant genesets...
+NUCLEAR_PART(1/23): succeed! 0.7378165686734035
+CELL_SURFACE(2/23): succeed! 0.5190733128704687
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(3/23): succeed! 4.198328790680233
+ORGANELLE_PART(4/23): succeed! 3.6473108317751377
+EXTRACELLULAR_REGION(5/23): succeed! 1.4532937206993692
+CYTOSOL(6/23): succeed! 0.38075434569595884
+MEMBRANE_PART(7/23): succeed! 1.5340941340007443
+CYTOSKELETAL_PART(8/23): succeed! 5.807607217693367
+CYTOPLASMIC_PART(9/23): succeed! 0.08362805689798558
+MICROTUBULE_CYTOSKELETON(10/23): succeed! 8.224643350120152
+INTRINSIC_TO_PLASMA_MEMBRANE(11/23): succeed! 1.4532937206993692
+CELL_FRACTION(12/23): succeed! 0.04540524358260936
+ORGANELLE_MEMBRANE(13/23): succeed! 0.42119379398112844
+SPINDLE(14/23): succeed! 10.18232670182485
+INTRINSIC_TO_MEMBRANE(15/23): succeed! 1.01546379958931
+CYTOPLASM(16/23): succeed! 0.02786423937805645
+MEMBRANE(17/23): succeed! 2.4493810036685115
+EXTRACELLULAR_MATRIX_PART(18/23): succeed! 3.0814807272427696
+ORGANELLE_LUMEN(19/23): succeed! 1.159660820829378
+ENDOPLASMIC_RETICULUM(20/23): succeed! 0.06173527967272935
+CYTOSKELETON(21/23): succeed! 4.353322798749145
+NUCLEUS(22/23): succeed! 1.9378388598811742
+NON_MEMBRANE_BOUND_ORGANELLE(23/23): succeed! 4.974168087232942
+Calculating accurate P values...
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(1/9): succeed! 5.447154835600126
+ORGANELLE_PART(2/9): succeed! 5.010494192451756
+CYTOSKELETAL_PART(3/9): succeed! 7.183582170795301
+MICROTUBULE_CYTOSKELETON(4/9): succeed! 9.857563559252268
+SPINDLE(5/9): succeed! 11.765649478580809
+MEMBRANE(6/9): succeed! 3.817512842494869
+EXTRACELLULAR_MATRIX_PART(7/9): succeed! 4.2889559354628854
+CYTOSKELETON(8/9): succeed! 5.668613227055751
+NON_MEMBRANE_BOUND_ORGANELLE(9/9): succeed! 6.413224632548075
+
+Findng module gene...
+NUCLEAR_PART(1/23): succeed! 6/15
+CELL_SURFACE(2/23): succeed! 3/11
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(3/23): succeed! 14/30
+ORGANELLE_PART(4/23): succeed! 19/57
+EXTRACELLULAR_REGION(5/23): succeed! 22/93
+CYTOSOL(6/23): succeed! 3/14
+MEMBRANE_PART(7/23): succeed! 26/132
+CYTOSKELETAL_PART(8/23): succeed! 13/26
+CYTOPLASMIC_PART(9/23): succeed! 10/79
+MICROTUBULE_CYTOSKELETON(10/23): succeed! 13/18
+INTRINSIC_TO_PLASMA_MEMBRANE(11/23): succeed! 20/93
+CELL_FRACTION(12/23): succeed! 7/37
+ORGANELLE_MEMBRANE(13/23): succeed! 4/13
+SPINDLE(14/23): succeed! 10/10
+INTRINSIC_TO_MEMBRANE(15/23): succeed! 22/115
+CYTOPLASM(16/23): succeed! 33/133
+MEMBRANE(17/23): succeed! 32/149
+EXTRACELLULAR_MATRIX_PART(18/23): succeed! 7/13
+ORGANELLE_LUMEN(19/23): succeed! 6/10
+ENDOPLASMIC_RETICULUM(20/23): succeed! 4/19
+CYTOSKELETON(21/23): succeed! 13/34
+NUCLEUS(22/23): succeed! 15/67
+NON_MEMBRANE_BOUND_ORGANELLE(23/23): succeed! 17/40
+Calculating approximate P values to filter out non-significant genesets...
+NUCLEAR_PART(1/23): succeed! 1.794617234277905
+CELL_SURFACE(2/23): succeed! 0.6567468378650901
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(3/23): succeed! 4.563418066510355
+ORGANELLE_PART(4/23): succeed! 3.5543261745593178
+EXTRACELLULAR_REGION(5/23): succeed! 1.861447694300525
+CYTOSOL(6/23): succeed! 0.4534799009448366
+MEMBRANE_PART(7/23): succeed! 1.1485112118344145
+CYTOSKELETAL_PART(8/23): succeed! 4.67175181654633
+CYTOPLASMIC_PART(9/23): succeed! 0.1102555634845045
+MICROTUBULE_CYTOSKELETON(10/23): succeed! 7.276036526505111
+INTRINSIC_TO_PLASMA_MEMBRANE(11/23): succeed! 1.3041859314668651
+CELL_FRACTION(12/23): succeed! 0.503756149432841
+ORGANELLE_MEMBRANE(13/23): succeed! 0.9331188340907968
+SPINDLE(14/23): succeed! 8.352611144300582
+INTRINSIC_TO_MEMBRANE(15/23): succeed! 0.9187326135500214
+CYTOPLASM(16/23): succeed! 3.0238983599844684
+MEMBRANE(17/23): succeed! 1.8629276485341228
+EXTRACELLULAR_MATRIX_PART(18/23): succeed! 2.93494682478384
+ORGANELLE_LUMEN(19/23): succeed! 2.888209709227579
+ENDOPLASMIC_RETICULUM(20/23): succeed! 0.501482970948745
+CYTOSKELETON(21/23): succeed! 3.200988928618116
+NUCLEUS(22/23): succeed! 1.2043346751190225
+NON_MEMBRANE_BOUND_ORGANELLE(23/23): succeed! 4.780840153114243
+Calculating accurate P values...
+PROTEINACEOUS_EXTRACELLULAR_MATRIX(1/10): succeed! 4.697186666863813
+ORGANELLE_PART(2/10): succeed! 3.491536208885778
+CYTOSKELETAL_PART(3/10): succeed! 4.951085085018448
+MICROTUBULE_CYTOSKELETON(4/10): succeed! 7.408239354319933
+SPINDLE(5/10): succeed! 8.380362406811882
+CYTOPLASM(6/10): succeed! 1.800959372820015
+EXTRACELLULAR_MATRIX_PART(7/10): succeed! 3.2139865109389096
+ORGANELLE_LUMEN(8/10): succeed! 3.2495157144422038
+CYTOSKELETON(9/10): succeed! 3.3909696860173133
+NON_MEMBRANE_BOUND_ORGANELLE(10/10): succeed! 4.729541518259834
+
+end time: Fri Aug 24 16:07:23 2012

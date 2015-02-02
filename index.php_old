@@ -1,0 +1,6 @@
+<?php
+
+$path = "";			// setting path for header & footer
+include("upload/index.php");
+
+?>

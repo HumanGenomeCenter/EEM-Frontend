@@ -1,0 +1,14 @@
+Options +Indexes
+DirectoryIndex index.php index.html
+
+# local php values
+php_value upload_max_filesize 16M
+
+
+RewriteEngine on
+# starts with 'x', followed by 4 letters/chars, optional backslash, optional index.html, index.php end
+RewriteRule ^(x[abcdefghjklmnpqrstvwxyzABCDEFGHJKLMNPQRSTVWXYZ123456789]{4})(/|/index\.html|/index\.php)?$ status.php?id=$1				[L]
+
+# map to /share1/proj/eem/data/xxxxx/expression_geneset.eemHtml
+RewriteRule ^(x[abcdefghjklmnpqrstvwxyzABCDEFGHJKLMNPQRSTVWXYZ123456789]{4})/(.*)$ results.php?id=$1&document=$2			[L]
+

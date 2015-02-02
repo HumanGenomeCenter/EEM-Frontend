@@ -1,0 +1,17 @@
+html, body {background-color: #FFFFFF;font-family: Tahoma, Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {color: #5A85D6;font-weight: bold;}
+h1 {font-size: 20pt;text-align: left;}
+h2 {font-size: 18pt;}
+h3 {font-size: 16pt;}
+h4 {font-size: 14pt;}
+h5 {font-size: 12pt;}
+h6 {font-size: 10pt;}
+th.mytable {padding: 2px;border:2px solid;color: white;border-color: black; text-align: center;font-weight: bold;background-color: slategray}
+caption.table {font-family: Tahoma, Helvetica, Arial, sans-serif;font-weight: bold;font-style: italic;padding: 10px;text-align: center;color: gray}
+div.image {font-family: Tahoma, Helvetica, Arial, sans-serif;font-weight: bold;font-style: italic;border:2px solid;padding: 10px;text-align: center;/*background-color: #BBBBFF;*/}
+th {padding: 0;}
+td {text-align: left;padding: 3px;cell-spacing: 5px;border:1px solid;border-color: light gray;}
+td.header {font-size: 10pt;padding: 0;}
+div, h1, h2, h3, h4, h5, h6, em, b, li, ul, table, th, td {
+font-family: Tahoma, Helvetica, Arial, sans-serif;}
+em, b, li, ul, table, td {font-size: 10pt;}

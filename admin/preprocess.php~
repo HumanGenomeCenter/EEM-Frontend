@@ -1,0 +1,26 @@
+B
+<pre>
+<?php 
+include("/share1/proj/eem/templates/functions.php");
+
+$id = "xNWGn";
+chdir(DATAPATH . $id);
+
+//rmdir("test");
+//echo getcwd() . "\n";
+
+$preprocess = "perl /share1/proj/eem/perl/preprocess2.pl -c /share1/proj/eem/data/chip/human.chip expression.tab -l -v 1000 -i $id";
+//$preprocess = "perl /share1/proj/eem/perl/preprocess2.pl";
+//$preprocess = "perl /share1/proj/eem/perl/preprocess2.pl expression.tab -l -v 1000 -i $id > ex4.tab";
+$ret = null;
+$response = exec($preprocess, $output, $ret);
+print_r($output);
+print_r($ret);
+
+
+?>
+</pre>
+Z
+
+
+perl /share1/proj/eem/perl/preprocess2.pl -c /share1/proj/eem/data/chip/human.chip expression.tab -l -v 1000 -i xNWGn > ex3.tab

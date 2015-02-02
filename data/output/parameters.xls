@@ -1,0 +1,16 @@
+exprFile	G:/proj/EEM_TEST2/breastMiller.tsv
+setFile	G:/proj/EEM_TEST2/PWM.gmt
+chipFile	Not given
+collapse	FALSE
+uniqueMethod	varmax
+maxSetSize	1000
+minSetSize	15
+maxGeneSize	8000
+filterMethod	var
+maxIter	100
+minPval	1
+marginalize	TRUE
+d	0.05
+nn	10
+b	100
+delta	0.001
